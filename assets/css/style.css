@@ -1,0 +1,13 @@
+html,body {
+    width:100%;
+    height:100%;
+    margin:0 !important;
+    padding:0 !important;
+}
+section {
+    margin:0 !important;
+    padding:0 !important;
+    height:95vh;
+    background-image:url(../image/blog.jpg);
+    background-size:cover;
+}
