@@ -23,7 +23,7 @@ if (!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) 
 
 <h1> Se connecter </h1>
 
-<form action="" method='POST'>
+<form action="POST" method='POST'>
 
     <div class="form-group">
         <label for="">Pseudo / Email</label>

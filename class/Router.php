@@ -15,7 +15,7 @@ class Router  {
                 include "template/".$_GET['page'].".php";
             } else {
                 echo "<h1 style='color:red;'>404<br>
-                    Cette page n'habite plus à cette adresse</h1>";
+                    Cette page n'habite pas à cette adresse</h1>";
             }
         }
     }

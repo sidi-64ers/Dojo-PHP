@@ -18,21 +18,13 @@
                     <?php else : ?>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Catégorie
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="index.php?page=categorie&categorie=bonheur">#</a>
-                                <a class="dropdown-item" href="index.php?">#</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">#</a>
-                            </div>
-                        </li>
+                                Catégorie</a></li>
                         <li><a href="index.php?page=register">S'inscrire</a></li>
                         <li><a href="index.php?page=login">Se connecter</a></li>
                     <?php endif; ?>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
+        
         </div>
     </nav>
 

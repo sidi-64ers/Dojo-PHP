@@ -26,7 +26,7 @@
             Session::getInstance()->setFlash('success', "Un email de confirmation vous a été envoyé");
             App::redirect('index.php?page=login');
         } else {
-            $erreur = $validation->getErrors();
+            $erreur = $validation->getErreurs();
         }
     }
     ?>
