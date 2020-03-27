@@ -21,6 +21,7 @@ if (!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) 
 }
 ?>
 
+<section>
 <h1> Se connecter </h1>
 
 <form action="POST" method='POST'>
@@ -46,3 +47,4 @@ if (!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])) 
 
 </form>
 
+</section>

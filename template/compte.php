@@ -24,14 +24,8 @@ if (!empty($_POST)) {
 
 
 <h1> <?php echo "Bonjour " . ucfirst($_SESSION['auth']->username); ?> </h1>
-<pre>
-    il 
-    se 
-    passe
-    beaucoup 
-    de chose 
-    quand on est connecté
-</pre>
+
+
 <h2> Mon compte </h2>
 
 <h3> Administration mot de passe : </h3>

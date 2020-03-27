@@ -38,7 +38,7 @@
 if (!empty($erreur)) : ?>
 
     <div class='alert alert-danger'>
-        <p> Le formulaire doit être complété </p>
+        <p> Le formulaire doit être correctement complété </p>
         <ul>
         <?php foreach($erreurs as $erreur) : ?>
             <li><?= $erreur; ?></li> 

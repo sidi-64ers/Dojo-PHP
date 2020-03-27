@@ -8,7 +8,7 @@ if (!empty($_POST) && !empty($_POST['email'])) {
     $session = Session::getInstance();
 
     if ($auth->resetPassword($db, $_POST['email'])) {
-        $session->setFlash('success', "vous recevrez les nouveaux code dans votre boîte mail" );
+        $session->setFlash('success', "vous recevrez le nouveaux mot de passe dans votre boîte mail" );
         App::redirect('index.php?page=login');
 
     } else {
